@@ -2,8 +2,14 @@
   "name": "timeseries-test",
   "version": "0.0.1",
   "description": "https://github.com/PEM--/timeseries-test.git",
-  "main": "src/index.js",
   "repository": "https://github.com/PEM--/timeseries-test.git",
   "author": "PEM-- <pemarchandet@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
