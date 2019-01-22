@@ -47,5 +47,5 @@ Time        Value       N_O         Roll_Sum    Min_Value   Max_Value
 ## Notes
 * Pure ES2017 according to Node 8 LTS capabililty (no build required)
 * One single added packages only for tests (development targer only)
-* Test started at 02h41, total interruptions 35min, ended 05h22: total time 2h06
+* Test started at 02h41, total interruptions 35min, ended 05h22: total time **2h06**
 * Test framework: Jest
