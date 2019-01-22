@@ -7,13 +7,17 @@ Packager: Yarn 1.13.0
 ```
 git clone https://github.com/PEM--/timeseries-test.git
 # Execution
-yarn run dev
+yarn dev
 # Tests
 yarn install
 yarn test
 ```
 
+⚠️ Node & Yarn must be available on your computer for this script to work.
+Please, refer to their installation process depending on your operating system.
+
 ## Notes
 * Pure ES2017 according to Node 8 LTS capabililty (no build required)
 * One single added packages only for tests (development targer only)
-* Test started at 02h41
+* Test started at 02h41, interruptions 35min
+* Test framework: Jest
