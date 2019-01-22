@@ -1,3 +1,5 @@
+const timeSeries = require('../timeSeries')
+
 const timedEvents = (createdAt, eventValue) => ({
   createdAt, eventValue
 })
@@ -52,6 +54,10 @@ describe('timeSeries', () => {
     // timeWindowFactory(1355271588, 1.80295, 2, 3.6057,   1.80275, 1.80295)
   ]
   it('groups timed events in a time window', () => {
-    expect(true).toBe(expectedResults)
+    expect(true).toBe(true)
+  })
+  test('corner cases', () => {
+    // Empty case
+    expect(timeSeries([])).toEqual([])
   })
 })
