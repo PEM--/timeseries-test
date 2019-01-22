@@ -6,7 +6,7 @@
   "author": "PEM-- <pemarchandet@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "src/index.js",
+    "dev": "node src/index.js",
     "test": "jest"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@ const FP = 1e7
 
 const timeSeries = (timedEvents, rollingTime = 60) => {
   if (timedEvents.length === 0) return []
-  // Some timed events are not properly stored in data: fix it
+  // Some timed events could not beed ordered properly
   const sortedTe = timedEvents.sort(({ createdAt: a }, { createdAt: b }) => a - b)
   return sortedTe.map(({ createdAt, eventValue }, index) => {
     // Check if former values fits in the rolling window
